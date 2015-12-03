@@ -27,9 +27,9 @@ public class Currency {
 
     }
 
-    public double converter(Currency to, double qty){
+    public double converter(double convertValueto, double qty){
 
-        return qty * this.convertValue / to.convertValue;
+        return qty * this.convertValue / convertValueto;
 
     }
 
